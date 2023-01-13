@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/layout_gatt_services_peripheral.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/layout/gatt_services_peripheral.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/drawable_ic_launcher.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/menu_gatt_services.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/menu/gatt_services.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/menu_gatt_peripheral.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/menu/gatt_peripheral.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/layout_listitem_device.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/layout_gatt_services_characteristics.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/layout/gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/layout/actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/menu_gatt_services_menu.xml.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/menu/gatt_services_menu.xml"
+    },
+    {
+        "merged": "/Users/user/BluetoothLe_Android/Application/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
+        "source": "/Users/user/BluetoothLe_Android/Application/src/main/res/drawable-hdpi/tile.9.png"
+    }
+]

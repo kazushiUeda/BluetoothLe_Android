@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.bluetoothlegatt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml
+10
+11    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+12
+13
+14    <!--
+15    Declare this required feature if you want to make the app available to BLE-capable
+16    devices only.  If you want to make your app available to devices that don't support BLE,
+17    you should omit this in the manifest.  Instead, determine BLE capability by using
+18    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+19    -->
+20    <uses-feature
+20-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:14:5-89
+21        android:name="android.hardware.bluetooth_le"
+21-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:14:19-63
+22        android:required="true" />
+22-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:14:64-87
+23
+24    <!--
+25         Needed only if your app looks for Bluetooth devices.
+26         You must add an attribute to this permission, or declare the
+27         ACCESS_FINE_LOCATION permission, depending on the results when you
+28         check location usage in your app.
+29    -->
+30    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+30-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:21:5-73
+30-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:21:22-70
+31
+32    <!--
+33         Needed only if your app makes the device discoverable to Bluetooth
+34         devices.
+35    -->
+36    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+36-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:25:5-78
+36-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:25:22-75
+37
+38    <!--
+39         Needed only if your app communicates with already-paired Bluetooth
+40         devices.
+41    -->
+42    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+42-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:29:5-76
+42-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:29:22-73
+43    <uses-permission
+43-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:31:5-67
+44        android:name="android.permission.BLUETOOTH"
+44-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:31:22-65
+45        android:maxSdkVersion="30" />
+45-->[no.nordicsemi.android:ble:2.3.1] /Users/user/.gradle/caches/transforms-3/48eacaab98d848ea274f009d4d3a3a93/transformed/jetified-ble-2.3.1/AndroidManifest.xml:14:9-35
+46    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+46-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:32:5-73
+46-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:32:22-71
+47    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+47-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:33:5-76
+47-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:33:22-74
+48    <uses-permission android:name="android.permission.INTERNET" />
+48-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:34:5-67
+48-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:34:22-64
+49    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+49-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:35:5-79
+49-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:35:22-76
+50    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+50-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:36:5-81
+50-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:36:22-78
+51    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+51-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:37:5-85
+51-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:37:22-82
+52    <uses-permission android:name="com.google.android.things.permission.MANAGE_BLUETOOTH" />
+52-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:38:5-93
+52-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:38:22-90
+53
+54    <application
+54-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:40:5-54:19
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.3.1] /Users/user/.gradle/caches/transforms-3/ce0daea3646215cfdd1934cc467e04b6/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:extractNativeLibs="false"
+58        android:icon="@drawable/ic_launcher"
+58-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:41:9-45
+59        android:label="@string/app_name"
+59-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:40:18-50
+60        android:theme="@android:style/Theme.Holo.Light" >
+60-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:42:9-56
+61        <activity
+61-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:43:9-49:20
+62            android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
+62-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:43:19-53
+63            android:label="@string/app_name" >
+63-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:44:13-45
+64            <intent-filter>
+64-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:45:13-48:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:46:17-68
+65-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:46:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:47:17-76
+67-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:47:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity android:name="com.example.android.bluetoothlegatt.DeviceControlActivity" />
+70-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:50:9-58
+70-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:50:19-56
+71
+72        <service
+72-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:51:9-77
+73            android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
+73-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:51:18-52
+74            android:enabled="true" />
+74-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:51:53-75
+75
+76        <activity android:name="com.example.android.bluetoothlegatt.DeviceAdvertiseActivity" />
+76-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:52:9-60
+76-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:52:19-58
+77
+78        <service
+78-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:51:9-77
+79            android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
+79-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:51:18-52
+80            android:enabled="true" />
+80-->/Users/user/BluetoothLe_Android/Application/src/main/AndroidManifest.xml:51:53-75
+81    </application>
+82
+83</manifest>
